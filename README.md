@@ -1,4 +1,4 @@
-# 📈 Vendor Performance Analysis Project: Driving Profitability
+# 📈 Vendor Consolidation & Profit Optimization Analysis
 
 ## 🚀 Executive Summary: Strategic Vendor Optimization
 
