@@ -7,7 +7,8 @@ import logging
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from pathlib import Path
-from pipeline import run_pipeline
+# Import from current package
+from .pipeline import run_pipeline
 
 # Setup logging
 BASE_DIR = Path(__file__).parent.parent
