@@ -15,7 +15,7 @@ import numpy as np
 # ================== PAGE CONFIGURATION ==================
 st.set_page_config(
     page_title="📊 Vendor Analytics Dashboard",
-    page_layout="wide",
+    layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
         'About': "Vendor Consolidation & Profit Optimization Platform"
