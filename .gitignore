@@ -1,0 +1,17 @@
+# Database files - too big for GitHub
+inventory.db
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+venv/
