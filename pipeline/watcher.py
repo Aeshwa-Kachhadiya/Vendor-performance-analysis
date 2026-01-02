@@ -4,11 +4,14 @@ File Watcher - Auto-trigger pipeline when new files are added
 
 import time
 import logging
+import sys
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from pathlib import Path
-# Import from current package
-from .pipeline import run_pipeline
+
+# Add parent directory to path to import pipeline module
+sys.path.insert(0, str(Path(__file__).parent))
+from pipeline import run_pipeline
 
 # Setup logging
 BASE_DIR = Path(__file__).parent.parent
