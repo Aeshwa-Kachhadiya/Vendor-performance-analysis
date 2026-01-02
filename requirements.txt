@@ -1,1 +1,18 @@
+# Streamlit Dashboard Dependencies
 
+# Core Framework
+streamlit==1.31.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.3
+
+# Database
+sqlalchemy==2.0.25
+
+# Visualization
+plotly==5.18.0
+
+# Optional: For enhanced features
+scipy==1.11.4
+scikit-learn==1.4.0
